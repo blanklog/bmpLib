@@ -3,14 +3,14 @@ the simple Bmp Lib. It can read and write bmp Image, only support uncompression 
 
 ### build project:  
 
-`cmake.exe -S E:/Code/qt/bmpLib -B E:/Code/qt/build-bmpLib-Desktop_Qt_6_4_1_MinGW_64_bit-Debug`
+`cmake.exe -S ./ -B ./build`
 
 
 
 
 ### compile project:   
 
-`cmake.exe --build E:/Code/qt/build-bmpLib-Desktop_Qt_6_4_1_MinGW_64_bit-Debug --target all install`
+`cmake.exe --build ./build --target all install`
 
 
 you will get lib in install directory, and executable sample in build directory.
